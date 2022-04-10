@@ -1,0 +1,221 @@
+/* slider */
+.h5, h5 {
+    font-size: xx-large;
+}
+
+
+.container a{
+    color: #F05454;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container a:hover{
+    color: #121212;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #F05454;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 33.33%;
+    right: 33.33%;
+    bottom: 33.33%;
+    left: 33.33%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-shadow: 0 0 3px #121212;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+/* nav bar drop down */
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #f5f5f5;
+    text-align: left;
+    list-style: none;
+    background-color: #121212;
+    background-clip: padding-box;
+    border: 1px solid #f5f5f5;
+    border-radius: 0.25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #37000000;
+    border: 0;
+}
+
+/* search bar */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #121212;
+    background-color: #f5f5f5;
+    background-clip: padding-box;
+    border: 1px solid #f5f5f5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* nav search-button */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #121212;
+    border: 1px solid #f5f5f5;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0 3px;
+}
+
+/* logo */
+.navbar-dark .navbar-brand {
+    color: #F05454;
+}
+
+.navbar-brand {
+    font-family: cursive, Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* modal button */
+.btn01.btn:hover{
+color: #121212;
+border: solid 1px #121212;
+background-color: #f5f5f5;
+}
+
+.btn02.btn:hover{
+    color: #121212;
+    border: solid 1px #121212;
+    background-color: #f5f5f5;
+    }
+
+
+/* about us page */
+
+/* featurette heading */
+
+.about{
+font-size: calc(1.325rem + .9vw);
+margin-top: 10px;
+margin-left: 10px;
+/* padding-left: 120px; */
+padding-top: 20px;
+text-align: center;
+}
+
+.row.featurette {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row.featurette {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* footer */
+.bt {
+    color: #f05454;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bt:hover{
+    color: #f5f5f5;
+}
+
+.container1{
+    background-color:#121212;
+    color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    
+}
+
+.copyright{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copyright{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Page */
+
+/* contact form */
+.g-3, .gy-3 {
+    --bs-gutter-y: 1rem;
+    padding: 60px;
+}
+
+.contact{
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.form-select{
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.submit:hover{
+    background-color: #f5f5f5;
+    color: #121212;
+    border: 2px solid #121212;
+}
