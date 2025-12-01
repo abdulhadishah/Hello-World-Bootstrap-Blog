@@ -36,12 +36,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -52,204 +52,93 @@
     </nav>
 
     <main class="page">
-      <!-- Carousel -->
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+      <div class="container">
+        <div class="about-intro text-center">
+          <h1 class="page-heading">What we write about</h1>
+          <p class="page-subtitle">
+            MonoBlog is a small corner of the internet that talks about
+            three things I care about: code, design, and anime. Light reads,
+            simple ideas, and a bit of nerd energy.
+          </p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="images/Computer with Code.jpg"
-              width="1600"
-              height="500"
-              class="d-block w-100"
-              alt="Computer screen with code"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>“First, solve the problem. Then, write the code.”</h5>
-              <p>— John Johnson</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/Person Drawing on a Sketchbook.jpg"
-              width="1600"
-              height="500"
-              class="d-block w-100"
-              alt="Person sketching on a notebook"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>“I draw like other people bite their nails.”</h5>
-              <p>— Pablo Picasso</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/Saitama One Punch Man.jpg"
-              width="1600"
-              height="500"
-              class="d-block w-100"
-              alt="Saitama from One Punch Man"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>“I’ll leave tomorrow’s problems to tomorrow’s me.”</h5>
-              <p>— Saitama (One-Punch Man)</p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
-      <!-- latest blog -->
-      <div class="container main-content">
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative blog-card"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <span class="category-tag mb-2">Manga</span>
-                <h3 class="mb-0">Getting started with Crayon Shin-chan</h3>
-                <div class="mb-1 text-muted">April 01, 2022</div>
-                <p class="card-text mb-auto">
-                  A quick guide for anyone who wants to jump into the weird,
-                  loud, and oddly wholesome world of Shin-chan.
-                </p>
-                <br />
-                <p class="mb-1"><small>Author: Not Otaku</small></p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="images/Pastel Crayon Shin Chan.jpg"
-                  width="200"
-                  height="250"
-                  alt="Crayon Shin-chan illustration"
-                />
-              </div>
-            </div>
+        <!-- featurette: Programming -->
+        <div class="row featurette my-5">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Programming
+              <span class="text-muted">It teaches you how to think.</span>
+            </h2>
+            <p class="lead">
+              Programming is more than just typing code. It’s understanding a
+              problem, breaking it into smaller parts, and building something
+              that actually works. Posts here focus on simple explanations,
+              small projects, and the mindset behind learning to code without
+              burning out.
+            </p>
           </div>
-          <div class="col-md-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative blog-card"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <span class="category-tag mb-2">Design</span>
-                <h3 class="mb-0">Get your creativity flowing</h3>
-                <div class="mb-1 text-muted">March 30, 2022</div>
-                <p class="mb-auto">
-                  Simple ways to warm up your hands and brain so the blank page
-                  doesn’t feel that scary.
-                </p>
-                <br />
-                <p class="mb-1"><small>Author: Anon</small></p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="images/Yellow and and Blue Colored Pencils.jpg"
-                  width="200"
-                  height="250"
-                  alt="Yellow and blue colored pencils"
-                />
-              </div>
-            </div>
+          <div class="col-md-5">
+            <img
+              class="img-fluid"
+              src="images/Female Software Engineer Coding on Computer.jpg"
+              width="400"
+              height="300"
+              alt="Person coding on a computer"
+            />
           </div>
         </div>
 
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative blog-card"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <span class="category-tag mb-2">Code</span>
-                <h3 class="mb-0">Let’s code!</h3>
-                <div class="mb-1 text-muted">March 28, 2022</div>
-                <p class="card-text mb-auto">
-                  Learning to code is mostly trial and error. This post is about
-                  making peace with bugs and enjoying the process.
-                </p>
-                <br />
-                <p class="mb-1"><small>Author: Anon</small></p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="images/Person using both Computer and a Laptop.jpg"
-                  width="200"
-                  height="250"
-                  alt="Person working on computer and laptop"
-                />
-              </div>
-            </div>
+        <hr />
+
+        <!-- featurette: Design -->
+        <div class="row featurette my-5">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Design
+              <span class="text-muted">Play with your imagination.</span>
+            </h2>
+            <p class="lead">
+              Design is how ideas are translated into something people can see,
+              touch, and use. Here the focus is on simple layouts, sketching,
+              and learning to notice details &mdash; contrast, spacing, and
+              composition &mdash; without getting lost in jargon or tools.
+            </p>
           </div>
-          <div class="col-md-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative blog-card"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <span class="category-tag mb-2">Anime</span>
-                <h3 class="mb-0">Crunchyroll vs Funimation</h3>
-                <div class="mb-1 text-muted">March 26, 2022</div>
-                <p class="mb-auto">
-                  Looking back at which platform used to have the better lineup
-                  for binge-watching weekends.
-                </p>
-                <br />
-                <p class="mb-1"><small>Author: Not Otaku</small></p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="images/Funimation and Crunchyroll.png"
-                  width="200"
-                  height="250"
-                  alt="Funimation and Crunchyroll logos"
-                />
-              </div>
-            </div>
+          <div class="col-md-5">
+            <img
+              class="img-fluid"
+              src="images/A person sketching in a sketchbook.jpg"
+              width="400"
+              height="300"
+              alt="Person sketching in a notebook"
+            />
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- featurette: Anime -->
+        <div class="row featurette my-5">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Anime
+              <span class="text-muted">Stories that stay with you.</span>
+            </h2>
+            <p class="lead">
+              Anime mixes bold visuals with emotional storytelling. Posts in
+              this section talk about shows, characters, and moments that hit
+              hard, whether it’s a silly slice-of-life episode or an overpowered
+              hero saving the world again.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="img-fluid"
+              src="images/Anime -  Crossover.jpg"
+              width="400"
+              height="300"
+              alt="Anime characters"
+            />
           </div>
         </div>
       </div>
